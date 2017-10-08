@@ -3,12 +3,12 @@ This project creates a client utilizing React.js that comsumes data provided by 
 There are 3 pages: 
 1. Home page where users can submit their survey. 
 2. Admin login page where admin can login.
-3. Admin interface where admin will be able to see results of the survey such as: Total survey submitted, average age of users who submitted survey, most and lease popular artist and most frequent region where the survey is submitted from.
+3. Admin interface where admin will be able to see results of the survey such as: Total survey submitted, average age of users who submitted survey, most and least popular artist and most frequent region where the survey is submitted from.
 
 
 ### __ASSUMPTIONS__
 * The survey has pre-defined list of artists and region values and only one can be chosen for artist.
-* In the case of tie in the results of Most popular / Lease popular artist or Most frequent region, the first row in the result set is returned. This can be modified easily to accomodate any changes necessary.
+* In the case of tie in the results of Most popular / Least popular artist or Most frequent region, the first row in the result set is returned. This can be modified easily to accomodate any changes necessary.
 * The admin login username/password values: 'admin'/'password'
 
 
