@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './css/App.css'
 import './css/AdminLogin.css';
+import AdminInterface from "./AdminInterface.js";
 
 class AdminLogin extends Component {
 
@@ -48,6 +49,7 @@ class AdminLogin extends Component {
     }
 
     render() {
+        if(!this.state.loggedIn) {
             return (
                 <div className="App container-fluid">
                     <header className="header row">
@@ -77,6 +79,10 @@ class AdminLogin extends Component {
                     </div>
                 </div>
             );
+        }
+        else{
+            return(<AdminInterface signOut={this.signOut.bind(this)}/>);
+        }
     }
 }
 
