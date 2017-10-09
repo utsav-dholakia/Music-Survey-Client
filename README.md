@@ -13,6 +13,7 @@ There are 3 pages:
 
 
 ### __STEPS TO RUN__
+* Install Node.js and npm(preferrably node version : 6.11.4 and npm version : 3.10.10).
 * Clone this repository.
 * Run __npm update__ command at the root of the project. This will download and update all the dependacies needed to run/test this server.
 * If there is an issue in in this step from create-react-app framework, remove '-' and make all letters small case in the project name and try again.
