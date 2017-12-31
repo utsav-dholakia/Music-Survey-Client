@@ -26,3 +26,4 @@ There are 3 pages:
 * This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 * The create-react-app provides inbuilt server for hosting the client app.
 * This project is built using Webstorm IDE from JetBrains.
+* Use this link to go to the server for this client project, [Music-Survey-Server](https://github.com/utsav-dholakia/Music-Survey-Server)
